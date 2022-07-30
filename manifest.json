@@ -1,0 +1,28 @@
+{
+    "name": "TradingView to Zerodha Alert",
+    "description": "alert ",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["scripting","tabs","activeTab"],
+    "action":{
+      "default_icon": {              
+        "16": "alert.png",   
+        "24": "alert24.png",   
+        "32": "alert32.png"   
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js","script.js"]
+    }
+  ],
+  "host_permissions": [
+    "https://*.google.com/",
+    "https://*.zerodha.com/"
+  ]
+}
+  
