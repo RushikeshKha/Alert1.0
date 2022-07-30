@@ -1,5 +1,6 @@
 
-
+//This code creates a new tab in which the homepage of broker is viewed
+//It helps in accessing the API request of the webapp
 function reddenPage(s){
     console.log(s)
   }

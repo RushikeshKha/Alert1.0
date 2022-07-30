@@ -1,3 +1,7 @@
+
+//This code send the alert set on sentinel through TV webapp
+//It sends a post request 
+
 console.log('started')
 chrome.runtime.onMessage.addListener(
   
