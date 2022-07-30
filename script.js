@@ -1,4 +1,6 @@
 
+//This script works in the foreground and changes the UI elements of the TV web app
+//It creates a new button in the UI of the TV web app, which is a button and it helps in setting an alert
 
 function at(){
 
