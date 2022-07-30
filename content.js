@@ -7,7 +7,7 @@ chrome.runtime.onMessage.addListener(
   "headers": {
     "accept": "application/json, text/plain, */*",
     "accept-language": "en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7",
-    "authorization": "ENTOKEN_CODE_GOES_HERE",
+    "authorization": "ENTOKEN_CODE_GOES",
     "content-type": "application/x-www-form-urlencoded",
     "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"102\", \"Google Chrome\";v=\"102\"",
     "sec-ch-ua-mobile": "?0",
